@@ -30,17 +30,32 @@
     color: #fff;
 }
 
-/**********Header************/
+/************Header************/
  .side-bar-main{
    width:300px ;
 }
 
 .side-bar-main .logo {
-    
+
 }
 
+/************Main***************/
 
 
+
+
+
+
+/************Footer***************/
+
+footer{
+    background-color: yellow;
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+}
 
 
 
