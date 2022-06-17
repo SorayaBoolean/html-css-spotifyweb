@@ -11,3 +11,22 @@
     --text-color-secondary:#fff;
     --hover-green-line:#ADFF2F;
 }
+
+/***********General-Rules**********/
+
+.container-body{
+    display:flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+/***********Debug-Rules*********/
+
+div {
+    border: 1px solid red;
+}
