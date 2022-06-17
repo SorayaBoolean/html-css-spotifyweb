@@ -25,8 +25,43 @@
 .flex-column{
     flex-direction: column;
 }
+
+.text-white{
+    color: #fff;
+}
+
+/**********Header************/
+ .side-bar-main{
+   width:300px ;
+}
+
+.side-bar-main .logo {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***********Debug-Rules*********/
 
-div {
-    border: 1px solid red;
+div{
+    border: 1px dashed red;
 }
