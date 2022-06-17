@@ -36,7 +36,15 @@
 }
 
 .side-bar-main .logo {
+padding: 2rem;
+}
 
+.side-bar-top, .side-bar-playlist, .side-bar-bottom {
+    padding: 1rem ;
+}
+
+.side-bar-bottom{
+    margin-top: 80px
 }
 
 /************Main***************/
