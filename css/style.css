@@ -14,9 +14,6 @@
 
 /***********General-Rules**********/
 
-.container-body{
-    display:flex;
-}
 
 .flex{
     display: flex;
@@ -29,14 +26,14 @@
 .text-white{
     color: #fff;
 }
-
-/************Header************/
+/**************MAIN*****************/
+/************Side-bar************/
  .side-bar-main{
-   width:300px ;
+    height: 100%;
 }
 
 .side-bar-main .logo {
-padding: 2rem;
+padding: 1rem;
 }
 
 .side-bar-top, .side-bar-playlist, .side-bar-bottom {
@@ -48,8 +45,9 @@ padding: 1rem;
 }
 
 .side-bar-bottom{
-    margin-top: 1000px;
+    margin-top: 100px;
     margin-bottom:4.5rem;
+    
 }
 
 .side-bar-main .box{
@@ -57,9 +55,15 @@ padding: 1rem;
 }
 
 
-/************Main***************/
-
-
+/************Main-Top***************/
+.call-to-action{
+    height: 80px;
+    width: 100%;
+}
+/***********Main-Content*************/
+.main-content{
+    display: ;
+}
 
 
 
@@ -82,9 +86,10 @@ footer{
 
 /**********Media-Query***********/
 
-@media screen {
+@media screen and(min-height:150px) {
     
-}
+    }
+
 
 
 
@@ -101,4 +106,8 @@ footer{
 
 div, li{
     border: 1px dashed red;
+}
+
+.call-to-action{
+    background-color: aquamarine;
 }
