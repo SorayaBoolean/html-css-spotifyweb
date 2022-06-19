@@ -28,41 +28,27 @@
 }
 /**************MAIN*****************/
 /************Side-bar************/
- .side-bar-main{
-    height: 100%;
+
+.side-bar{
+    padding: 1rem;
+} 
+
+
+/************Main***************/
+.content{
+    width: 1200px;
 }
 
-.side-bar-main .logo {
-padding: 1rem;
-}
-
-.side-bar-top, .side-bar-playlist, .side-bar-bottom {
-    line-height: 2rem;
-}
-
-.side-bar-main li{
-padding: 1rem;
-}
-
-.side-bar-bottom{
-    margin-top: 100px;
-    margin-bottom:4.5rem;
-    
-}
-
-.side-bar-main .box{
-    width: 100%;
-}
-
-
-/************Main-Top***************/
 .call-to-action{
     height: 80px;
     width: 100%;
 }
-/***********Main-Content*************/
-.main-content{
-    display: ;
+
+.content-menu {
+    justify-content: center;
+}
+.card {
+    width: calc(100%/6);
 }
 
 
@@ -78,6 +64,8 @@ footer{
     bottom: 0;
     left: 0%;
 }
+
+
 
 
 
@@ -110,4 +98,8 @@ div, li{
 
 .call-to-action{
     background-color: aquamarine;
+}
+
+.content-menu {
+    background-color: pink;
 }
