@@ -13,8 +13,12 @@
 }
 
 /***********General-Rules**********/
-
-
+.body{
+font-family: 'Fredoka One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Sacramento', cursive;
+}
 .flex{
     display: flex;
 }
@@ -26,52 +30,103 @@
 .text-white{
     color: #fff;
 }
+
+.container{
+    width: 100%;
+    height: 100%;
+}
 /**************MAIN*****************/
 /************Side-bar************/
-
 .side-bar{
-    padding: rem;
-    height: 600px;
+    width: 15%;
+    height: 100%;
     margin-bottom: 4.5rem;
+    flex-shrink: 0;
+    background-color: #000000;
+    color: var(--text-color);
 } 
 .side-bar li{
     list-style: none;
+    font-weight: bold;
 }
-
-
 .row .card{
     height: 150px;
 } 
-
 nav li{
     padding: 1rem 1rem 0rem 1rem;
 }
-
 .playlist li{
     padding: 1rem 1rem 0rem 1rem;
 }
 .playlist h3{
     padding: 1rem 1rem 0rem 1rem;
+    color: #fff;
+}
+.aside-nav img{
+    height: 30px;
+}
+
+.playlist img{
+    height: 30px;
 }
 
 
 /************Main***************/
 
-.content{
-    width: 1200px;
-    height: 600px;
+.rows-container{
+    width: 100%;
+    margin-bottom: 70px;
+    background-color: #141922;
 }
-
 .call-to-action{
     height: 80px;
     width: 100%;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+    text-decoration: none;
+    background-color:  #07090c;
 }
-
+.call-to-action .btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    border-radius: 30px;
+    padding: 0.8rem;
+}
 .content-menu {
     justify-content: center;
 }
 .card {
     width: calc(100%/6);
+    height: 100%;
+    
+}
+.main-nav li {
+    list-style: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid #141922;
+    font-weight: bold;
+}
+.nav-item{
+    text-decoration: none;
+    color: #686868;
+    font-weight:bold
+}
+.nav-container{
+    justify-content: center;
+    border-bottom: 2px solid #141922;
+    padding: 5px;
+}
+
+.row h2{
+    color: #fff;
+    margin: 1rem;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -81,15 +136,21 @@ nav li{
 
 footer{
     background-color: yellow;
-    height: 4.5rem;
+    height: 70px;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0%;
 }
 
+/*********Hover-Effects***********/
+.nav-item:hover {
+    border-bottom:#ADFF2F 2px solid;
+}
 
-
+.call-to-action .btn:hover{
+    padding: 1rem;
+}
 
 
 
@@ -97,9 +158,15 @@ footer{
 
 /**********Media-Query***********/
 
-@media screen and(min-height:150px) {
-    
+@media all and (max-width: 768px) {
+    .content-cards {
+        flex-wrap: wrap;
     }
+ .card{
+    width: calc(100% / 4 )
+ }
+}
+  
 
 
 
@@ -116,11 +183,7 @@ footer{
 /***********Debug-Rules*********/
 
 div, li{
-    border: 1px dashed red;
-}
-
-.call-to-action{
-    background-color: aquamarine;
+   border: 1px dashed #fff;
 }
 
 .content-menu {
