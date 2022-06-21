@@ -88,7 +88,7 @@ nav li{
 
 
 /************Main***************/
-
+.
 .rows-container{
     width: 100%;
     background-color: #141922;
@@ -104,7 +104,10 @@ nav li{
     padding-right: 1rem;
     text-decoration: none;
     background-color:  #07090c;
-
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 .call-to-action .btn{
     color: #fff;
@@ -203,9 +206,32 @@ justify-content: space-between
     width: 30%;
     height: 3px;
     background-color: #c7bcbc;
-    position: relative;
-    left: 0;
 }
+
+.volume-bar{
+align-items: center;
+}
+
+.volume-bar i{
+    margin: 0px 10px;
+    
+}
+
+.small-white-row{
+    height: 3px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.small-white-row-ins{
+    width: 30%;
+    height: 3px;
+    background-color: #c7bcbc;
+}
+
+
 /*********Hover-Effects***********/
 .nav-item:hover {
     border-bottom:#ADFF2F 2px solid;
