@@ -35,6 +35,7 @@ font-family: 'Sacramento', cursive;
 /**************MAIN*****************/
 /************Side-bar************/
 .side-bar{
+    justify-content: space-between;
     width: 15%;
     height: (100vh - 70px);
     margin-bottom: 4.5rem;
@@ -49,6 +50,10 @@ font-family: 'Sacramento', cursive;
 
 nav li{
     padding: 1rem 1rem 0rem 1rem;
+}
+
+.playlist{
+    overflow: auto;
 }
 .playlist li{
     padding: 1rem 1rem 0rem 1rem;
@@ -70,6 +75,9 @@ nav li{
 
 .popular img{
     border-radius: 50%;
+}
+.user{
+    margin-top: 30px;
 }
 
 
@@ -148,12 +156,30 @@ nav li{
 /************Footer***************/
 
 footer{
-    background-color: yellow;
+    background-color: #3a3838;
     height: 70px;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0%;
+    color: white;
+}
+.footer-container {
+justify-content: space-between
+}
+
+.played-item {
+    justify-content:;
+}
+
+.played-item .pad{
+    margin: 10px 10px ;
+}
+
+
+.footer-img img{
+   height: 30px;
+   padding-top: 5px;
 }
 
 /*********Hover-Effects***********/
@@ -202,7 +228,7 @@ footer{
 /***********Debug-Rules*********/
 
 div, li{
-  
+ 
 }
 
 .content-menu {
