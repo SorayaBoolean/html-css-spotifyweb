@@ -31,43 +31,46 @@ font-family: 'Sacramento', cursive;
 .container{
     width: 100%;
     height: 100vh;
+    background-color: #07090c;
 }
-
 .pad-10{
     padding: 0 10px;
 }
 /**************MAIN*****************/
 /************Side-bar************/
 .side-bar{
-    justify-content: space-between;
     width: 15%;
     height: (100vh - 70px);
-    margin-bottom: 4.5rem;
     flex-shrink: 0;
     background-color: #000000;
     color: var(--text-color);
+    z-index: 400;
 } 
 .side-bar li{
     list-style: none;
     font-weight: bold;
+    
 }
 
-nav li{
-    padding: 1rem 1rem 0rem 1rem;
+.side-bar .logo{
+   height: 80px;
 }
-
+.aside-nav{
+    height: 100px;
+}
 .playlist{
-    overflow: auto;
+    height: calc(100vh - 300p);
 }
-.playlist li{
-    padding: 1rem 1rem 0rem 1rem;
+.user{
+    margin-top: 180px;
+    height: 50px;
 }
+
 .playlist h3{
-    padding: 1rem 1rem 0rem 1rem;
     color: #fff;
 }
 .aside-nav img{
-    height: 30px;
+    height: 20px;
 
 }
 .playlist img{
@@ -81,21 +84,19 @@ nav li{
 .popular img{
     border-radius: 50%;
 }
-.user{
-    margin-top: 30px;
-}
+
 
 
 
 /************Main***************/
-.
-.rows-container{
+
+.rows-container {
     width: 100%;
-    background-color: #141922;
+    background-color: var(--secondary-color);
     overflow: auto;
     margin-bottom: 70px;
+    margin-top: 80px;
 }
-
 .call-to-action{
     height: 80px;
     width: 100%;
@@ -103,11 +104,11 @@ nav li{
     align-items: center;
     padding-right: 1rem;
     text-decoration: none;
-    background-color:  #07090c;
-    position: fixed;
-    left: 0;
-    right: 0;
+    background-color:  #040507;
+    position: fixed;   
     top: 0;
+    left: 0px;
+    right: 0px;
 }
 .call-to-action .btn{
     color: #fff;
@@ -165,6 +166,7 @@ footer{
     bottom: 0;
     left: 0%;
     color: white;
+    z-index: 600;
 }
 .footer-container {
 justify-content: space-between
@@ -260,6 +262,8 @@ align-items: center;
  .card{
     width: calc(100% / 4 )
  }
+
+ 
 }
   
 
