@@ -127,6 +127,7 @@ ul li {
     width: calc(100%/6); 
     margin: 10px;
     position: relative;
+    border: 1px dashed red;
 }
 .main-nav li {
     list-style: none;
@@ -158,6 +159,7 @@ ul li {
 .card img{
     height: 100%;
     width: 100%;
+   
 }
 
 .hover-card{
@@ -168,6 +170,10 @@ ul li {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
 }
 
 .hover-card i{
